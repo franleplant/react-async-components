@@ -1,6 +1,6 @@
 body {
   width: 800px;
-  height: 100vh;
+  min-height: 100vh;
   margin: 20px auto ;
   padding: 50px;
   border: 1px solid #FF00FF;
@@ -22,5 +22,34 @@ code {
   border-radius: 5px;
   padding: 40px;
   margin: 10px;
-
 }
+
+.user {
+  display: flex;
+  flex-direction: row;
+}
+
+.user > * {
+  flex: 1;
+}
+
+.field {
+  padding: 10px;
+}
+
+label {
+  display: block;
+  font-size: 10px;
+  color: #444;
+}
+
+input, select {
+  padding: 10px;
+  color: #222;
+}
+
+.field input {
+  width: 90%;
+}
+
+
